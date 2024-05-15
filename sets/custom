@@ -1,3 +1,4 @@
+dev-libs/wayland
 dev-util/rustup
 app-editors/neovim
 dev-lang/python
@@ -10,3 +11,8 @@ sys-fs/btrfs-progs
 dev-vcs/git
 sys-kernel/linux-firmware
 sys-firmware/sof-firmware
+sys-kernel/genkernel
+sys-process/bcron
+sys-apps/mlocate
+sys-block/io-scheduler-udev-rules
+sys-boot/grub
