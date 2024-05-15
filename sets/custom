@@ -6,3 +6,7 @@ x11-terms/kitty
 app-shells/zsh
 app-shells/gentoo-zsh-completions
 app-shells/zsh-completions
+sys-fs/btrfs-progs
+dev-vcs/git
+sys-kernel/linux-firmware
+sys-firmware/sof-firmware
