@@ -1,1 +1,8 @@
 dev-util/rustup
+app-editors/neovim
+dev-lang/python
+gui-wm/sway
+x11-terms/kitty
+app-shells/zsh
+app-shells/gentoo-zsh-completions
+app-shells/zsh-completions
