@@ -1,11 +1,9 @@
 dev-libs/wayland
 dev-util/rustup
 app-editors/neovim
+app-vim/gentoo-syntax
 dev-lang/python
 gui-wm/sway
-app-shells/zsh
-app-shells/gentoo-zsh-completions
-app-shells/zsh-completions
 sys-fs/btrfs-progs
 dev-vcs/git
 sys-kernel/linux-firmware
@@ -45,3 +43,5 @@ www-client/surfraw
 www-client/lynx
 net-analyzer/nmap
 app-containers/podman
+net-wireless/gnuradio
+app-portage/command-not-found
