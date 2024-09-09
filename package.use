@@ -1,10 +1,9 @@
-*/* pgo
 gui-wm/sway X -wallpapers swaynag swaybar 
 media-video/ffmpeg amf bluray cpudetection -cuda 
 sys-libs/timezone-data leaps-timezone
-sys-kernel/installkernel dracut efistub grub -systemd
 app-containers/podman btrfs rootless wrapper 
 dev-lang/python ensurepip
 net-irc/hexchat -plugin-checksum plugin-fishlim -plugin-sysinfo
 media-video/vlc aom aribsub chromecast dvbpsi
 app-admin/sudo offensive secure-path
+net-wireless/dump1090 rtlsdr
