@@ -43,3 +43,4 @@ net-misc/dhcpcd
 gui-apps/foot
 www-client/surfraw
 www-client/lynx
+net-analyzer/nmap
