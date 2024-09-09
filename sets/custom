@@ -31,3 +31,11 @@ app-shells/fzf
 net-misc/curl
 dev-util/shellcheck
 sys-apps/bubblewrap
+net-wireless/urh
+app-pda/libimobiledevice
+dev-db/sqlmap
+dev-util/radare2
+app-misc/no-more-secrets
+net-wireless/dump1090
+app-misc/binwalk
+app-editors/vscodium
