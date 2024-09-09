@@ -39,3 +39,7 @@ app-misc/no-more-secrets
 net-wireless/dump1090
 app-misc/binwalk
 app-editors/vscodium
+net-misc/dhcpcd
+gui-apps/foot
+www-client/surfraw
+www-client/lynx
