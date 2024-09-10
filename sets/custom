@@ -48,4 +48,6 @@ net-wireless/gnuradio
 app-admin/sudo
 eselect/repository
 games-simulation/openrct2
+app-shells/bash-completion
+dev-python/numpy
 # www-client/ungoogled-chromium
