@@ -46,3 +46,4 @@ app-containers/podman
 net-wireless/gnuradio
 app-admin/sudo
 eselect/repository
+# www-client/ungoogled-chromium
