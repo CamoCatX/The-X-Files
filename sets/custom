@@ -45,3 +45,4 @@ net-analyzer/nmap
 app-containers/podman
 net-wireless/gnuradio
 app-admin/sudo
+eselect/repository
