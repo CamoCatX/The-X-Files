@@ -43,6 +43,7 @@ www-client/surfraw
 www-client/lynx
 net-analyzer/nmap
 app-containers/podman
+app-emulation/qemu
 net-wireless/gnuradio
 app-admin/sudo
 eselect/repository
