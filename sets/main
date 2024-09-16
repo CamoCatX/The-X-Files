@@ -50,3 +50,5 @@ eselect/repository
 games-simulation/openrct2
 dev-python/numpy
 sys-apps/fwupd
+media-video/pipewire
+media-video/wireplumber
