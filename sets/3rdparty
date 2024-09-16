@@ -1,1 +1,9 @@
 www-client/ungoogled-chromium
+app-exploits/routersploit
+net-analyzer/amass
+net-analyzer/bettercap
+net-analyzer/ffuf
+net-analyzer/metasploit
+net-analyzer/ncrack
+net-analyzer/responder
+net-proxy/burpsuite
