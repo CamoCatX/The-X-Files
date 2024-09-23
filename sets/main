@@ -16,8 +16,6 @@ media-video/vlc
 xfce-base/thunar
 net-irc/hexchat
 games-misc/bsd-games
-app-laptop/tuxedo-drivers
-app-laptop/tuxedo-control-center-bin
 app-forensics/foremost
 app-crypt/nwipe
 net-analyzer/scapy
