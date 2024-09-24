@@ -23,3 +23,5 @@ dev-util/cutter
 dev-util/ghidra
 net-wireless/aircrack-ng
 app-crypt/steghide
+net-analyzer/set
+www-apps/beef
