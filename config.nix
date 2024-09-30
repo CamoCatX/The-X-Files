@@ -1,4 +1,5 @@
 # ~/.config/nixpkgs/config.nix
+# https://nixos.org/manual/nixpkgs/stable/#sec-declarative-package-management
 # nix-env -iA nixpkgs.myPackages
 # ever after nix-env -f. -iA myPackages
 {
@@ -6,7 +7,6 @@
     myProfile = writeText "my-profile" ''
       export PATH=$HOME/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/sbin:/bin:/usr/sbin:/usr/bin
       export MANPATH=$HOME/.nix-profile/share/man:/nix/var/nix/profiles/default/share/man:/usr/share/man
-      export INFOPATH=$HOME/.nix-profile/share/info:/nix/var/nix/profiles/default/share/info:/usr/share/info
     '';
     myPackages = pkgs.buildEnv {
       name = "my-packages";
@@ -17,18 +17,9 @@
         '')
         man
         nixUnstable
-
       ];
-      pathsToLink = [ "/share/man" "/share/doc" "/share/info" "/bin" "/etc" ];
-      extraOutputsToInstall = [ "man" "doc" "info" ];
-      postBuild = ''
-        if [ -x $out/bin/install-info -a -w $out/share/info ]; then
-          shopt -s nullglob
-          for i in $out/share/info/*.info $out/share/info/*.info.gz; do
-              $out/bin/install-info $i $out/share/info/dir
-          done
-        fi
-      '';
+      pathsToLink = [ "/share/man" "/share/doc" "/bin" "/etc" ];
+      extraOutputsToInstall = [ "man" "doc" ];
     };
   };
 }
