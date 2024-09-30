@@ -17,6 +17,7 @@
         '')
         man
         nixUnstable
+        nmap
       ];
       pathsToLink = [ "/share/man" "/share/doc" "/bin" "/etc" ];
       extraOutputsToInstall = [ "man" "doc" ];
