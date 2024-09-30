@@ -53,3 +53,4 @@ media-video/wireplumber
 sys-apps/net-tools
 sys-apps/pciutils
 dev-libs/libevdev
+net-analyzer/macchanger
